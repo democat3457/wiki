@@ -13,7 +13,7 @@ title: Kopernicus Wiki
 subtitle: A mod to modify the planetary system used by KSP
 ---
 
-# Prerequisites
+## Prerequisites
 * [What are ConfigNodes?]({{ site.baseurl }}{% link main/ConfigNodes.md %})
 * [A Beginner's Guide to Kopernicus: The Basics](https://forum.kerbalspaceprogram.com/index.php?/topic/129540-a-beginners-guide-to-kopernicus-the-basics/)
 * [Data Types]({{ site.baseurl }}{% link main/datatypes.md %})
@@ -56,8 +56,8 @@ subtitle: A mod to modify the planetary system used by KSP
   + [~~Particles subnode~~]({{ site.baseurl }}{% link main/Particles.md %})
   + [Debug subnode]({{ site.baseurl }}{% link main/Debug.md %})
 
-# KopernicusExpansion
-**WARNING: These pages are not intended for beginners, and a basic level of experience is assumed.**
+## KopernicusExpansion
+> **WARNING: These pages are not intended for beginners, and a basic level of experience is assumed.**
 * [Comet Tails]({{ site.baseurl }}{% link kex/CometTails.md %})
 * [Emissive FX]({{ site.baseurl }}{% link kex/EmissiveFX.md %})
 * [EVA Footprints]({{ site.baseurl }}{% link kex/EVAFootprints.md %})
