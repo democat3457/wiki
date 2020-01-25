@@ -40,7 +40,7 @@ PQS
       simplexOctaves = 8
       simplexPersistence = 0.5
       simplexFrequency = 1
-      
+
       enabled = true
       order = 2
     }
