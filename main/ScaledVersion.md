@@ -6,7 +6,6 @@ subtitle: The view of Earth from space looks... like a gray sphere?!
 
 The `ScaledVersion { }` node in a configuration file for Kopernicus describes a less-detailed model of your planet that appears in the map view and from large distances.
 
-
 **Subnodes**
 * [Material { }]({{ site.baseurl }}{% link main/ScaledVersion/Material.md %}) = Updates to textures and atmosphere rims.
 * [OnDemand { }]({{ site.baseurl }}{% link main/ScaledVersion/OnDemand.md %}) = Used for textures that should be loaded OnDemand.

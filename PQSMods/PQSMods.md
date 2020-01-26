@@ -7,11 +7,6 @@ PQS Mods, or Procedural Quad Sphere Modifiers, are various tools beyond applying
 They come in a wrapper node, `Mods { }`, which contains all of the PQSMod nodes and is a subnode of the `PQS { }` node.
 Each PQSMod subnode contains `name`, `order`, and `enabled` keys, as described below.
 
-|Property|Format|Description|
-|name|String|The set name of the PQSMod. Used for differentiating between two PQSMods of the same type being used in the same config.|
-|enabled|Boolean|Whether the PQSMod should be enabled.|
-|order|Integer|The order that the PQSMod should be processed in. PQSMods are processed in increasing `order` value, so a mod with `order` 20 would be applied before a mod with order `100`.|
-
 **PQSMods**
 + [LandControl]({{ site.baseurl }}{% link PQSMods/LandControl.md %})
 + [VertexColorMap]({{ site.baseurl }}{% link PQSMods/VertexColorMap.md %})
@@ -21,3 +16,19 @@ Each PQSMod subnode contains `name`, `order`, and `enabled` keys, as described b
 + [VertexHeightNoiseVertHeightCurve2]({{ site.baseurl }}{% link PQSMods/VertexHeightNoiseVertHeightCurve2.md %})
 + [VertexSimplexHeight]({{ site.baseurl }}{% link PQSMods/VertexSimplexHeight.md %})
 + [VertexSimplexHeightAbsolute]({{ site.baseurl }}{% link PQSMods/VertexSimplexHeightAbsolute.md %})
+
+**Example**
+```
+PQS
+{
+    Mods
+    {
+        ...
+    }
+}
+```
+
+|Property|Format|Description|
+|name|String|The set name of the PQSMod. Used for differentiating between two PQSMods of the same type being used in the same config.|
+|enabled|Boolean|Whether the PQSMod should be enabled.|
+|order|Integer|The order that the PQSMod should be processed in. PQSMods are processed in increasing `order` value, so a mod with `order` 20 would be applied before a mod with order `100`.|
