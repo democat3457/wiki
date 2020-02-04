@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ScaledVersion
-subtitle: The view of Earth from space looks... like a gray sphere?!
+subtitle: The view of Earth from space looks... like a grey sphere?!
 ---
 
 The `ScaledVersion { }` node in a configuration file for Kopernicus describes a less-detailed model of your planet that appears in the map view and from large distances.
